@@ -2,18 +2,12 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
+    background-color: #c7d3e1;
 }
 
 header {
-    background-color: #ffffff;
+    background-color: #1012a3;
     padding: 15px;
-}
-
-.teste {
-    background-color: #ff0000;
-    font-size: 50px;
-] align-items: center;
 }
 
 nav a {
@@ -25,22 +19,15 @@ nav a {
 
 nav a:hover {
     font-size: 50px;
-    color: red;
-}
-
-.facil {
-    background-color: #333;
+    color: #1012a3;
 }
 
 .video {
-
-    background-color: rgb(#586);
-    display: block;
-    margin-bottom: 50px;
-    padding-bottom: 20px;
-    margin-top: 50px;
-    padding-top: 20px;
-    width: 100
+    background-color: #222722;
+    overflow: hidden;
+}
+.img-video{
+    width: 100%;
 }
 
 .container {
@@ -48,14 +35,14 @@ nav a:hover {
     text-align: center;
 }
 
-img {
+.img {
     width: 300px;
     border-radius: 10px;
 }
 
 button {
     padding: 10px 20px;
-    background-color: red;
+    background-color: #1012a3;
     color: white;
     border: none;
     border-radius: 5px;
@@ -63,11 +50,11 @@ button {
 }
 
 button:hover {
-    background-color: rgb(10 64 213 / 0, 68);
+    background-color: #377dff;
 }
 
-footer {
-    background-color: #ff0000;
+footer p {
+    background-color: #1012a3;
     color: white;
     text-align: center;
     padding: 10px;
