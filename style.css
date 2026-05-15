@@ -1,62 +1,110 @@
-
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #c7d3e1;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    background-color: #1012a3;
-    padding: 15px;
+body{
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color:white;
 }
 
-nav a {
-    color: white;
-    margin: 10px;
-    text-decoration: none;
-    font-weight: bold;
+/* MENU */
+
+nav{
+    background: rgba(0,0,0,0.3);
+    backdrop-filter: blur(10px);
+    padding:20px;
+    position:sticky;
+    top:0;
 }
 
-nav a:hover {
-    font-size: 50px;
-    color: #1012a3;
+nav ul{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    list-style:none;
 }
 
-.video {
-    background-color: #222722;
-    overflow: hidden;
-}
-.img-video{
-    width: 100%;
-}
-
-.container {
-    padding: 20px;
-    text-align: center;
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
 }
 
-.img {
-    width: 300px;
-    border-radius: 10px;
+nav a:hover{
+    color:#38bdf8;
 }
 
-button {
-    padding: 10px 20px;
-    background-color: #1012a3;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+/* CONTEÚDO */
+
+.container{
+    text-align:center;
+    padding:60px 20px;
 }
 
-button:hover {
-    background-color: #377dff;
+h1{
+    font-size:48px;
+    margin-bottom:20px;
 }
 
-footer p {
-    background-color: #1012a3;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px;
+.subtitulo{
+    font-size:20px;
+    color:#cbd5e1;
+    margin-bottom:40px;
+}
+
+.texto{
+    max-width:900px;
+    margin:auto;
+    line-height:1.8;
+    font-size:18px;
+    color:#e2e8f0;
+}
+
+/* CARD VIDEO */
+
+.card{
+    margin:50px auto;
+    max-width:700px;
+    background:#111827;
+    padding:20px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.5);
+}
+
+.card img{
+    width:100%;
+    border-radius:15px;
+}
+
+/* BOTÃO */
+
+button{
+    margin-top:30px;
+    padding:15px 35px;
+    border:none;
+    border-radius:30px;
+    background:#38bdf8;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+    background:#0ea5e9;
+}
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    padding:25px;
+    margin-top:50px;
+    background:#020617;
+    color:#94a3b8;
 }
